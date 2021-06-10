@@ -1,9 +1,9 @@
 <?php
 	// Database configuration 
-	$dbHost     = "localhost"; 
-	$dbUsername = "root"; 
-	$dbPassword = ""; 
-	$dbName     = "dnerror"; 
+	$dbHost     = "freedb.tech"; 
+	$dbUsername = "freedbtech_havendim"; 
+	$dbPassword = "qwert123"; 
+	$dbName     = "freedbtech_dnerror"; 
 	 
 	// Create database connection 
 	$con = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName); 
