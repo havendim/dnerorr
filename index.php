@@ -33,7 +33,7 @@
         <div class="row">
           <div class="col-md-2"></div>
             <div class="col-md-8 form-group">
-              <input type="text" id="search" class="form-control" autocomplete="off" placeholder="cari kode error sesuai EJ"><br>
+              <input type="text" id="search" class="form-control" autocomplete="off" placeholder="cari kode error"><br>
             </div>
           <div class="col-md-2"></div>
         </div>
