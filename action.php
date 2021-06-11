@@ -27,8 +27,8 @@
 		<tbody>
 			
 			<tr >
-				<td><p class='h6'>{$row['error_code']}</p></td>
-				<td>{$row['deskripsi']}</td>
+				<td><small>{$row['error_code']}</small></td>
+				<td><small>{$row['deskripsi']}</small></td>
 			</tr>
 			
 			</tbody>
