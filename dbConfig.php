@@ -1,9 +1,9 @@
 <?php
 	// Database configuration 
-	$dbHost     = "sql5.freesqldatabase.com"; 
-	$dbUsername = "sql5419495"; 
-	$dbPassword = "tH2ZZhGQF3"; 
-	$dbName     = "sql5419495"; 
+	$dbHost     = "db4free.net"; 
+	$dbUsername = "havendim"; 
+	$dbPassword = "havendim"; 
+	$dbName     = "dnerror"; 
 	 
 	// Create database connection 
 	$con = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName); 
