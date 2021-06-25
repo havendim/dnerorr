@@ -8,7 +8,7 @@
 	$output = "";
 	if (isset($_POST['query'])) {
 		$search = mysqli_real_escape_string($con, $_POST['query']);
-		$sql = "SELECT * FROM dn_errmap WHERE error_code LIKE '%$search%' LIMIT 0, 10";
+		$sql = "SELECT * FROM dn_errmap WHERE error_code LIKE '%$search%' LIMIT 0, 20";
 	}else{
 		$sql = "SELECT * FROM dn_errmap ORDER BY error_code DESC LIMIT 0, 0";
 	}
