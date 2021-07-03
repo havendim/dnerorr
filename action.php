@@ -39,5 +39,5 @@
 	}else{
 		echo "";
 	}
-	
+	mysqli_close($conn);
 ?>
